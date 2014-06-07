@@ -1,4 +1,6 @@
 Railsgirls::Application.routes.draw do
+
+  root'ideas#index'
   resources :categories
 
   resources :ideas
